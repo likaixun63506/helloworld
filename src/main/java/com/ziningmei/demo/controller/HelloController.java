@@ -23,7 +23,7 @@ public class HelloController {
     @RequestMapping(value = "/helloworld1", method = RequestMethod.POST)
     @ResponseBody
     public String getCEQTransferReportList1() {
-        String hello="Hello world1";
+        String hello="Hello world";
         return JSON.toJSONString(hello);
     }
 
